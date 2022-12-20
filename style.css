@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #3E5151, #DECBA4);
+}
+.container{
+    display: grid;
+    place-items: center;
+    
+}
+h1{
+    text-align:center;
+    font-family: 'Charm', cursive;
+    font-size: 90px;
+    color:rgb(240, 18, 18);
+   
+}
+h2{margin: 10px;
+    color:orangered;
+    /* font-style:italic; */
+    
+}
+p{
+    text-indent:20px ;
+}
+.main{
+   
+    margin: 30px;
+    padding:10px;
+    background-image: linear-gradient(to right, #fddb92 0%, #d1fdff 100%);
+    width: 80%;
+    height: 260px;
+    border-radius: 10px;
+    
+}
+.iletişim{
+    position: fixed;
+
+}
+
+
+img{
+width: 300px;
+float: left;
+padding: 10px;
+}
+img:hover{
+    cursor: pointer;
+    width: 35%;
+    padding: 15px;
+    
+
+}
+
+a{ border:1px solid orangered;
+    width: 100px;
+   padding: 10px;
+   border-radius:3px;
+    background-color: rgb(255, 69, 0);
+    color: azure;
+    text-decoration: none;
+    margin: 20px;
+    float: right;
+    text-align: center;
+    
+}
+a:hover{
+   width: 15%;
+    padding: 15px;
+}
